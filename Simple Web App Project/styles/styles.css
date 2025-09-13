@@ -1,0 +1,732 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+body
+{
+   border-radius: 10px;
+   width: 1000px;
+   height: auto;
+   margin: auto;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header
+{ 
+   margin-top: 50px;
+   text-align: center;
+   font-size: 40;
+   font-family: 'Dancing Script', cursive;
+   text-shadow: 5px 5px #969494;
+}
+.navig nav
+{
+    justify-content: space-between;
+    padding-top:  10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h2
+{
+   padding: 20px;
+   text-align: center;
+   font-size: 30;
+}
+
+
+.navig ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#d3d3d3;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+
+.navig li
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-size: 30;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-family: 'Dancing script',cursive;
+}
+.navig li a
+{
+    text-decoration: none;
+    color: black;   
+
+}
+
+.navig li a:hover 
+{
+    color: rgb(119, 102, 102);
+}
+
+.index-art1 img
+{
+    width:600px;
+    height:400px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+aside
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    float: right;
+}
+
+aside section
+{
+    border-radius: 5px;
+    border: 1px solid #c0e0f0;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+aside section h2
+{
+    border-radius: 5px;
+    margin: 0px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(#e4eaeb, #cdd2d6);
+    color: black;
+}
+
+aside article h3
+{
+    text-align: center;
+}
+aside article h3 a
+{
+    text-decoration: none;
+}
+
+aside article
+{
+    margin: 15px;
+    border-radius: 10px;
+}
+
+aside article p
+{
+    font-size: 16px;
+    text-align: center;
+}
+
+main
+{
+    border-radius:10px;
+    margin-top: 10px;
+    margin-right:310px;
+    background-color:#f5f8fa;
+}
+
+main article
+{
+    font-style: italic;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #d3d3d3;
+}
+
+table
+{
+    width: 400px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 2px #888;
+}
+
+table td, table th
+{
+    border: 1px solid #bfe0ec;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+table th
+{
+    background-color: #0080B0;
+    color: white;
+}
+
+table tr:hover
+{
+    color:white;
+    background-color: #555;
+}
+
+.index-art1 p
+{
+    font-size: 40;
+    text-align: center;
+}
+
+.index-art2 img
+{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 180px;
+    border-radius:10px;
+}
+
+.index-art3 img
+{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 180px;
+    border-radius:10px;
+}
+
+.items
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+
+}
+
+.item img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.item img:hover
+{
+    transform: scale(1.04);
+}
+
+.index-art4 h2
+{
+    padding: 5px;
+}
+
+.item h4,p
+{
+    text-align: center;
+}
+
+.item button
+{
+    padding: 10px 30px;
+    border: none;
+    outline:none;
+    background-color: #0080B0;
+    color:white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 10;
+    display: block;
+    margin: auto;
+    transition: 0.2s ease;
+}
+
+.item button:hover
+{
+    transform: scale(1.04);
+}
+
+footer p
+{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.foot ul li a:hover{
+    color: gray;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+footer li
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-size: 30;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-family: 'Dancing script',cursive;
+}
+
+footer
+{
+    clear: both;
+    margin-top: 10px;
+    background: #d3d3d3;
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+footer .social {
+    text-align: center;
+    color: gray;
+}
+
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+    display: inline-block;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe-recdana #sastojci
+{
+    margin-left: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20;
+}
+
+.recipe-recdana ul li
+{
+    margin:5px;
+}
+
+
+/*Recipe*/
+
+.recipe-art1 img
+{
+    width:600px;
+    height:400px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px #888;
+
+}
+
+.recipe-art1 #title
+{
+    text-align: left;
+    font-size:30;
+    padding-top: 20px;
+    margin-left: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color:black;
+
+}
+
+.recipe-art1 #notes
+{
+    text-align: center;
+    text-decoration: italic;
+    font-size: 18;
+}
+
+.recipe-art1 #prep
+{
+    text-align: left;
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 30;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.recipe-art1 #ing
+{
+    margin-left: 30px;
+    font-size: 20;
+    margin-right: 30px;
+
+}
+
+.recipe-art1 #ing li
+{
+    list-style-type: none;
+    margin-bottom: 5px;
+    
+}
+
+.recipe-art1     #ing li span
+{
+    width:20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #0080B0;
+    color:#fff;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.recipe-art2 p
+{
+    text-align: center;
+    font-size: 30;
+    font-weight: 30px;
+    padding-bottom: 10px;
+}
+
+.recitems img
+{
+    width:500px;
+    height:300px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.2s ease;
+    box-shadow: 5px 5px 2px #888;
+    cursor: pointer;
+
+}
+
+.recitem p
+{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 15;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    object-fit: cover;
+   
+    transition: 0.2s ease;
+}
+
+.recitem img:hover
+{
+    transform: scale(1.04);
+}
+
+.recitems h4
+{
+    text-align: center;
+    font-size: 20;
+}
+
+.container
+{
+    text-align: center;
+    font-size: 5;
+}
+
+.checked
+{
+    color: orange;
+}
+
+.container-title
+{
+    text-align: left;
+    font-size: 6;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+/*Blog*/
+
+
+.main-blog
+{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.gallery
+{
+    width: 100%;
+    height: auto;
+}
+
+.gallery h1{
+    padding: 30px 0 30px 0;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family:'Dancing Script', cursive; 
+}
+
+.gallery_image_box
+{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.gallery_image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border-radius: 10px;
+  
+}
+
+.gallery_image img
+{
+    width: 100%;
+    height: 200px;
+    transition: .3s;
+    box-shadow: 5px 5px 2px #888;
+    cursor: pointer;
+}
+
+.gallery_image:hover img
+{
+    opacity: 0.4;
+}
+
+.gallery_image h3
+{
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 130px;
+    color: #0080B0;
+    font-family: polo;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gallery_image:hover h3
+{
+    opacity: 1;
+}
+
+.gallery_image p
+{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 15;
+    cursor: pointer;
+}
+
+.gallery_image:hover p
+{
+    opacity: 1;
+}
+
+
+/* Review card*/
+
+.review
+{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.review h1
+{
+    font-size: 30;
+    font-family: 'Dancing Script',cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review_box
+{
+    width: 95%;
+    margin: 70px auto;
+    display: flex;
+}
+
+.review_card
+{
+    width: 350px;
+    height: 535px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 0 8px;
+}
+
+.review_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.review_profile img
+{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid #cccccc;
+}
+
+.review_text
+{
+    text-align: center;
+}
+
+.name
+{
+    color: #000;
+}
+
+
+.review_icon
+{
+    color: #fac031;
+}
+
+
+.review_text p
+{
+    text-align: center;
+    line-height: 22px;
+}
+
+
+/* Contact */
+
+.main-contact
+{
+    width: 100%;
+    height: auto;
+}
+
+.main-contact label
+{
+    float: left;
+    font-size: 20;
+}
+
+input[type=text], select, textarea 
+{
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  
+input[type=submit] 
+{
+    background-color: #0080B0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+    margin: auto;
+    text-align: center;
+}
+  
+
+input[type=submit]:hover 
+{
+    background-color: #45a049;
+}
+
+  
+.contact-container 
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+#conc
+{
+    font-family: 'Dancing Script',cursive;
+    font-size:25;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.social-container a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+    display: inline-block;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.social-container 
+{
+    text-align: center;
+    color: gray;
+}
+
+.main-contact p
+{
+    font-family: 'Dancing Script',cursive;
+    font-size:25;
+}

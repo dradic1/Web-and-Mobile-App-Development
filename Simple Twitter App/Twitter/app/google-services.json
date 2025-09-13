@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "900420800385",
+    "project_id": "ormwa-projekt",
+    "storage_bucket": "ormwa-projekt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900420800385:android:c90aedcada7023be2f2280",
+        "android_client_info": {
+          "package_name": "hr.ferit.dominradic.aplikacija"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900420800385-97jlntlhvsrdtjnh1d1ptpeh22eojqbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA-U4xizejkkNAaVz7j9tGdAAml54tSKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900420800385-97jlntlhvsrdtjnh1d1ptpeh22eojqbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900420800385:android:2febe07570bf72b92f2280",
+        "android_client_info": {
+          "package_name": "hr.ferit.dominradic.orwmaprojekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900420800385-97jlntlhvsrdtjnh1d1ptpeh22eojqbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA-U4xizejkkNAaVz7j9tGdAAml54tSKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900420800385-97jlntlhvsrdtjnh1d1ptpeh22eojqbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900420800385:android:43b8ce6aebd12c8a2f2280",
+        "android_client_info": {
+          "package_name": "hr.ferit.dominradic.tweetzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900420800385-97jlntlhvsrdtjnh1d1ptpeh22eojqbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA-U4xizejkkNAaVz7j9tGdAAml54tSKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900420800385-97jlntlhvsrdtjnh1d1ptpeh22eojqbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
